@@ -8,6 +8,8 @@ public class Main {
         gestionarLlibre(llibrePrincipal, 3, 2);
     }
 
+    /* Método que realiza operaciones sobre objeto tipo Llibre */
+    
 	private static void gestionarLlibre(Llibre llibrePrincipal, int quantitatAPrestar, int quantitatARetornar) {
 		llibrePrincipal.mostrarDades();
         System.out.println();
